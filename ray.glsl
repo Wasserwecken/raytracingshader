@@ -844,7 +844,7 @@ void main() {
     vec3 pixelColor = BACKDROPCOLOR;
 
     //// Camera setup and ray creation
-    vec3 cameraPosition = vec3(-16.5, 1.7, -5.0 + iTime * 0.1);
+    vec3 cameraPosition = vec3(-16.5, 1.7, -5.0 + iTime * 0.2);
     vec3 viewTarget = cameraPosition + vec3(0.3, 0.03, 1.0);
     vec3 viewDirection = normalize(viewTarget - cameraPosition);
     Ray ray = CameraRay(gl_FragCoord.xy, cameraPosition, viewDirection, 60.0);
