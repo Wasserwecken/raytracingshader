@@ -1,4 +1,4 @@
-# Boid simulation
+# Ray tracing shader
 ![Image of scene](/Media/scene.png)
 
 ## About
